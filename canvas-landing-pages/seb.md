@@ -1,1 +1,1 @@
-# ![[tktk Module Name]](../assets/tktk-hero.png)
+# ![SQL Joins](../assets/tktk-hero.png)
