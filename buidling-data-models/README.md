@@ -1,6 +1,6 @@
 # ![SQL Joins - Building Data Models](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to design and implement database schemas using table normalization techniques and perform queries that leverage joins to retrieve data from multiple tables.
+**Learning objective:** By the end of this lesson, students will be able to design and implement database schemas using table normalization techniques.
 
 ## Data modeling
 
