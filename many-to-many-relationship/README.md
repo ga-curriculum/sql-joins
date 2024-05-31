@@ -4,7 +4,6 @@
 
 ## Data modeling
 
-
 One ice cream has many ingredients. Ingredients can be in many ice creams.
 
 Because this relationship is many to many, we can't just add a foreign key to one of our tables.
@@ -14,7 +13,6 @@ We'll need to make a `join` table.
 This is going to match up our ice cream and ingredients.
 
 We can add additional information to this table too:
-
 
 For example each pint of ice cream will take different amounts of cream, milk and sugar to make room for other ingredients.
 
@@ -40,7 +38,6 @@ SELECT * FROM ingredients;
 ```
 
 Now our join table:
-
 
 ```sql
 CREATE TABLE ice_creams_ingredients (ice_cream_id INT, ingredient_id INT, per_pint DECIMAL);
@@ -79,7 +76,7 @@ SELECT
 FROM
  ice_creams_ingredients
 INNER JOIN
- ice_creams  
+ ice_creams
 ON
  ice_creams.id = ice_creams_ingredients.ice_cream_id
 INNER JOIN
@@ -89,10 +86,6 @@ ON
 ORDER BY name, ingredient;
 ```
 
-Let's visualize
+## 🎓 You do: Write a query
 
-![many to many marked up](many_to_many_marked_up.png)
-
->> Bonus You Do
-
-Show the cities where strawberries need to be shipped
+Show the cities where strawberries need to be shipped.
