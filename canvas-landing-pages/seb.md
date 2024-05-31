@@ -1,4 +1,4 @@
-# ![SQL Joins](../assets/tktk-hero.png)
+# ![SQL Joins](../assets/hero.png)
 
 ## About
 
