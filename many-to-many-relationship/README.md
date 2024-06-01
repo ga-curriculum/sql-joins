@@ -6,15 +6,11 @@
 
 One ice cream has many ingredients. Ingredients can be in many ice creams.
 
-Because this relationship is many to many, we can't just add a foreign key to one of our tables.
-
-We'll need to make a `join` table.
-
-This is going to match up our ice cream and ingredients.
+Because this relationship is many to many, we can't just add a foreign key to one of our tables. We'll need to make a `join` table. This is going to match up our ice cream and ingredients.
 
 We can add additional information to this table too:
 
-For example each pint of ice cream will take different amounts of cream, milk and sugar to make room for other ingredients.
+For example, each pint of ice cream will take different amounts of cream, milk and sugar to make room for other ingredients.
 
 This can get really complicated. It's good to draw out an Entity Relation Diagram (ERD) [More info here](https://www.smartdraw.com/entity-relationship-diagram/)
 
@@ -61,8 +57,8 @@ INSERT INTO ice_creams_ingredients (ice_cream_id, ingredient_id) VALUES
 (4, 3),
 (5, 3),
 (6, 3),
-(2 , 4),
-(3 , 5),
+(2, 4),
+(3, 5),
 (4, 6),
 (5, 7),
 (6, 8);
