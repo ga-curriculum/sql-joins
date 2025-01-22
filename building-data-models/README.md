@@ -1,4 +1,7 @@
-# ![SQL Joins - Building Data Models](./assets/hero.png)
+<h1>
+  <span class="headline">SQL Joins</span>
+  <span class="subhead">Building Data Models</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to design and implement database schemas using table normalization techniques.
 

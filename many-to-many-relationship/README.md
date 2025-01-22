@@ -1,4 +1,7 @@
-# ![SQL Joins - Many to Many Relationship](./assets/hero.png)
+<h1>
+  <span class="headline">SQL Joins</span>
+  <span class="subhead">Many-to-Many Relationship</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to model complex data relationships using many-to-many relationships, and construct queries that utilize many-to-many joins to retrieve and analyze data across these connections.
 

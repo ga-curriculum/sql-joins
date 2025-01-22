@@ -1,4 +1,7 @@
-# ![SQL Joins - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">SQL Joins</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Optional Setup
 

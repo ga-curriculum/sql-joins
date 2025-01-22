@@ -1,4 +1,7 @@
-# ![SQL Joins - Joins](./assets/hero.png)
+<h1>
+  <span class="headline">SQL Joins</span>
+  <span class="subhead">Joins</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to leverage joins to construct advanced queries that retrieve and analyze data from multiple relational tables.
 

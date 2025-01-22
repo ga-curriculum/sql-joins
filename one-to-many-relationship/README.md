@@ -1,4 +1,7 @@
-# ![SQL Joins - One to Many Relationship](./assets/hero.png)
+<h1>
+  <span class="headline">SQL Joins</span>
+  <span class="subhead">One-to-Many Relationship</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to understand the core principles of relational data and apply one-to-many relationships to model data effectively.
 

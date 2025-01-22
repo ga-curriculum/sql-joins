@@ -1,0 +1,39 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+buildingDataModels = new Template.Microlesson {
+  friendlyName = "Building Data Models"
+  dirName = "building-data-models"
+  type = "Content"
+  videoUrl = ""
+}
+
+oneToManyRelationship = new Template.Microlesson {
+  friendlyName = "One-to-Many Relationship"
+  dirName = "one-to-many-relationship"
+  type = "Content"
+  videoUrl = ""
+}
+
+joins = new Template.Microlesson {
+  friendlyName = "Joins"
+  dirName = "joins"
+  type = "Content"
+  videoUrl = ""
+}
+
+manyToManyRelationship = new Template.Microlesson {
+  friendlyName = "Many-to-Many Relationship"
+  dirName = "many-to-many-relationship"
+  type = "Content"
+  videoUrl = ""
+}
+
