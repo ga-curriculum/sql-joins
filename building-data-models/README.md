@@ -82,7 +82,7 @@ What other info is useful? For now let's list how many pints we have in storage 
 
 We also will add a `SERIAL PRIMARY KEY`, this means that each entry will get a unique key
 
-(SERIAL is a pseudo datatype, which is 4 bytes and ranges from 1 to 2,147,283,647) and increments [more info](http://www.postgresqltutorial.com/postgresql-serial/).
+(SERIAL is a pseudo datatype, which is 4 bytes and ranges from 1 to 2,147,283,647) and increments [more info](https://neon.tech/postgresql/postgresql-tutorial/postgresql-serial).
 
 Primary Key adds constraints (like checking that the number is unique and not null)
 
