@@ -11,25 +11,33 @@ In a real-world application, it's unusual to have just one table for your data. 
 
 ### Designing a "simple" system
 
-To illustrate the concept of data modeling, let's imagine we are designing a system to manage the production of ice cream. We need to consider the different types of data involved in the process.
+To explore this idea, let's imagine we're designing a system to manage ice cream production. What kinds of data would we need to keep track of?
 
-We can start by thinking of the logistics of making just one type of ice cream. What kind of data would we need?
+We’ll start with just one flavor: **Plain**.
 
-In this case, let's consider a basic type of ice cream: 'Plain.'
-
-'Plain' ice cream is made up of
+'Plain' ice cream is made with:
 
 - milk
 - sugar
 - cream
 
-We also need to determine how much of each ingredient is required to make one pint of ice cream. This information is essential for both the production process and inventory management. For 'Plain' ice cream, let's pretend the following quantities:
+And it's usually sold in the quantity of a **pint**.
+
+### What is a pint?
+
+A **pint** is a unit of volume commonly used in recipes and food production. In this lesson, we’ll treat 1 pint as about **480 milliliters (ml)** — roughly **half a liter** or **two cups**.
+
+This helps standardize ingredient amounts and makes it easier to work with our ice cream data.
+
+### Ingredients per pint
+
+We need to know how much of each ingredient is required to make one pint of ice cream. This is important for both production and inventory tracking. For 'Plain' ice cream, let’s assume the following amounts:
 
 | Milk  | Sugar | Cream |
 | :---: | :---: | :---: |
 | 480ml | 143g  | 240ml |
 
-Since we're manufacturing lots of ice cream. It would be useful to also have data on how much of these ingredients we have on hand:
+Since we're producing large quantities of ice cream, it’s also helpful to know how much of each ingredient we currently have in stock:
 
 | Milk | Sugar  | Cream |
 | :--: | :----: | :---: |
